@@ -13,7 +13,7 @@ Welcome to the **Route Finder with POI Filtering** project. This tool allows use
 - [License](#license)
 
 ## Features
-
+- **Backend Algorithms**: Written in Python for pathfinding and data processing.
 - **Interactive Map**: Users can click on the map to select starting and ending points.
 - **POI Filtering**: Dynamically filter Points of Interest (POIs) like restaurants, cafes, hotels, etc., based on user selections.
 - **Distance Slider**: Adjust the maximum route distance using a slider, and filter POIs within the specified range.
@@ -42,10 +42,10 @@ Welcome to the **Route Finder with POI Filtering** project. This tool allows use
 ## Setup and Installation
 
 ### Prerequisites
-
-1. **Node.js** installed on your local machine.
-2. **Firebase Project** set up on [Firebase Console](https://console.firebase.google.com/).
-3. Basic knowledge of HTML, CSS, and JavaScript.
+1. **Python** installed (for backend algorithms).
+2. **Node.js** installed on your local machine.
+3. **Firebase Project** set up on [Firebase Console](https://console.firebase.google.com/).
+4. Basic knowledge of HTML, CSS, and JavaScript.
 
 ### Installation
 
