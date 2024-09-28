@@ -3,9 +3,11 @@
 Welcome to the **Route Finder with POI Filtering** project. This tool allows users to find routes between two locations, while also exploring various Points of Interest (POIs) such as restaurants, cafes, hotels, and more. Users can adjust the maximum distance for the route, and dynamically filter POIs based on selected categories. The project leverages Firebase as the backend for storing and retrieving location data and ratings, and it uses Leaflet.js for rendering the map and routes.
 
 ## Table of Contents
+
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
+- [Setup and Installation Installation (Algorithms)](#setup-and-installation-algorithms)
+- [Setup and Installation (Full project)](#setup-and-installation)
 - [How to Use](#how-to-use)
 - [Firebase Configuration](#firebase-configuration)
 - [Future Improvements](#future-improvements)
@@ -36,8 +38,26 @@ Welcome to the **Route Finder with POI Filtering** project. This tool allows use
 
 - **API**:
   - [Open Source Routing Machine (OSRM)](http://project-osrm.org/) for route calculation.
+    
+## Setup and Installation (Algorithms)
 
-## Setup and Installation
+This project includes several algorithms to find and optimize routes between points of interest (POIs). The algorithms include:
+
+- **Depth First Search (DFS)**
+- **Lookahead Constraint Satisfaction Problem (CSP)**
+- **UCS Local Beam Search**
+
+These algorithms can be tested with different graph sizes and configurations by running Python scripts that generate graphs and evaluate the algorithms' performance.
+
+Running the Tests
+	1.	Clone the repository.
+	2.	Install the necessary dependencies (use a virtual environment).
+	3.	Navigate to the backend-python folder and run:
+  ```bash
+  python tests.py
+  ```
+  
+## Setup and Installation (Full project)
 
 ### Prerequisites
 1. **Python** installed (for backend algorithms).
