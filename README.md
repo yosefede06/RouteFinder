@@ -46,3 +46,17 @@ Welcome to the **Route Finder with POI Filtering** project. This tool allows use
 2. **Node.js** installed on your local machine.
 3. **Firebase Project** set up on [Firebase Console](https://console.firebase.google.com/).
 4. Basic knowledge of HTML, CSS, and JavaScript.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/route-finder.git
+   cd route-finder
+   ```
+2.	Install dependencies (if needed):
+   ```bash
+   npm install
+   ```
+3.	To run the backend (Python):
+	•	Install required Python libraries:
