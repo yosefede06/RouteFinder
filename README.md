@@ -32,6 +32,7 @@ Welcome to the **Route Finder with POI Filtering** project. This tool allows use
   - [Font Awesome](https://fontawesome.com/) for icons
 
 - **Backend**:
+  - [Python](https://www.python.org/) for algorithms (pathfinding, POI processing)
   - [Firebase Realtime Database](https://firebase.google.com/docs/database) for storing and retrieving location data
   - [Firebase SDK](https://firebase.google.com/docs/web/setup) for frontend interaction with Firebase
 
