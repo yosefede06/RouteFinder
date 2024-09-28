@@ -62,7 +62,7 @@ Welcome to the **Route Finder with POI Filtering** project. This tool allows use
 
 4. To run the backend (Python):
 ```bash
-python backend.py
+python main.py
 ```
 5.	Serve the frontend project locally:
 ``` bash
