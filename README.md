@@ -52,6 +52,10 @@ Welcome to the **Route Finder with POI Filtering** project. This tool allows use
 
    ```bash
    git clone https://github.com/your-username/route-finder.git
-   cd route-finder```
+   cd route-finder
 2.	Install dependencies (if needed):
-   ```npm install```
+   ```bash
+      npm install
+   ```
+3. 	Install dependencies (if needed):
+
