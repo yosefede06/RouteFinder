@@ -230,3 +230,12 @@ Firebase Realtime Database is central to managing Points of Interest (POIs), rou
        }
      }
      ```
+
+### Future Improvements
+
+- **User Authentication**: Allow users to sign in and save their preferred routes or POI settings.
+- **Rating System**: Implement a user rating system where users can rate POIs.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
