@@ -1,0 +1,161 @@
+#map {
+  height: 600px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#distance {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* General Form Styling */
+#routeForm {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Category Checkbox Styling */
+.form-check-input {
+    border: 2px solid #6c757d;
+    width: 18px;
+    height: 18px;
+    /*margin-left: 0 !important;*/
+}
+
+.form-check-label {
+    font-size: 16px;
+    color: #343a40;
+    font-weight: 500;
+}
+
+.slider-container h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.slider-label {
+    font-size: 16px;
+    color: #495057;
+}
+
+/* Custom button styles */
+.custom-btn {
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-btn i {
+    font-size: 14px;   /* Smaller icon size */
+    margin-right: 4px; /* Reduce space between icon and text */
+}
+
+.custom-btn:hover {
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.custom-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.loading-spinner {
+  display: none; /* Initially hidden */
+}
+
+.custom-btn.loading .loading-spinner {
+  display: inline-block; /* Show when loading */
+}
+
+/* Button spacing and layout adjustments */
+.button-container {
+  display: flex;
+  gap: 20px; /* Space between buttons */
+  justify-content: center;
+}
+
+.button-container .btn i {
+  font-size: 16px; /* Icon size */
+}
+
+
+.loading {
+  cursor: not-allowed;
+}
+
+/* Logo styling */
+.logo {
+  max-width: 150px; /* Adjust the width of the logo as needed */
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Info section styling */
+.info-section {
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Range Slider Styling */
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #007bff; /* Updated background color */
+    outline: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+/* For Chrome, Safari, Opera, and Edge  */
+input[type="range"]::-webkit-slider-runnable-track {
+    background: lightgrey;
+    height: 0.7rem;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#errorAlert {
+  display: none; /* Hidden by default */
+}
+
+.slider-label {
+  margin-top: 10px;
+  font-size: 18px;
+}
