@@ -47,22 +47,17 @@ Welcome to the **Route Finder with POI Filtering** project. This tool allows use
 ### Installation
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/your-username/route-finder.git
    cd route-finder
    ```
-2. Install dependencies (if needed):
-   ```bash
-   npm install
-   ```
-3. Set up Firebase by adding your Firebase configuration to the project. (See Firebase Configuration for details).
+2. Set up Firebase by adding your Firebase configuration to the project. (See Firebase Configuration for details).
 
-4. To run the backend (Python):
+3. To run the backend (Python):
 ```bash
 python main.py
 ```
-5.	Serve the frontend project locally:
+4.	Serve the frontend project locally:
 ``` bash
 Run index.html
 ```
