@@ -49,10 +49,10 @@ This project includes several algorithms to find and optimize routes between poi
 
 These algorithms can be tested with different graph sizes and configurations by running Python scripts that generate graphs and evaluate the algorithms' performance.
 
-Running the Tests
-	1.	Clone the repository.
-	2.	Install the necessary dependencies (use a virtual environment).
-	3.	Navigate to the backend-python folder and run:
+### Running the Tests
+1. Clone the repository.
+2. Install the necessary dependencies (use a virtual environment).
+3. Navigate to the backend-python folder and run:
   ```bash
   python tests.py
   ```
