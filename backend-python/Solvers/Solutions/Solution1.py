@@ -101,5 +101,4 @@ class LocalBeamSearch:
             self.K *= 2
             retries += 1
 
-        # If no path is found after retrying, return the best found so far (if any)
         return self.best_path, self.type_list, self.best_score, self.expanded_paths
