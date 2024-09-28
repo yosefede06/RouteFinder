@@ -7,10 +7,8 @@ Welcome to the **Route Finder with POI Filtering** project. This tool allows use
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [How to Use](#how-to-use)
-- [Backend Algorithms](#backend-algorithms)
 - [Firebase Configuration](#firebase-configuration)
 - [Future Improvements](#future-improvements)
-- [License](#license)
 
 ## Features
 - **Backend Algorithms**: Written in Python for pathfinding and data processing.
@@ -97,36 +95,7 @@ Run index.html
 7. **Route Distance and Time**:
    - After generating a route, the total distance (in kilometers) and estimated time (in hours and minutes) will be displayed beneath the map.
 
-## Backend Algorithms
 
-The backend of this project is powered by Python, and it handles the core algorithms for route calculation, filtering Points of Interest (POIs), and managing distance constraints. Below is a breakdown of the key backend functionality:
-
-### 1. **Route Calculation**:
-   - The backend retrieves the start and end points selected by the user, and using Python's `haversine` formula, it calculates the great-circle distance between two points on the Earth.
-   - This distance is used to determine if a POI is within the maximum allowed distance specified by the user.
-   - The route generation algorithm ensures that only POIs within the specified distance range are included in the route.
-
-### 2. **POI Filtering**:
-   - After the user selects categories of interest (such as restaurants, cafes, etc.), the backend algorithm filters out the POIs that fall under those categories.
-   - POIs are further filtered by their proximity to the selected start and end points. Only those that lie within the combined start-to-end distance and fall within the user's maximum distance setting will be displayed.
-
-### 3. **Dynamic Rating System**:
-   - For each POI, the backend assigns a random rating between 1 and 10 (floating point), which simulates real-world user ratings. These ratings are generated using Python's `random.uniform()` function.
-   - The ratings are updated dynamically in the Firebase database and are displayed to the user as part of the POI's detailed information.
-
-### 4. **Firebase Integration**:
-   - The backend is tightly integrated with Firebase, which is used for storing and retrieving POIs, route requests, and responses.
-   - Python interacts with Firebase using the `firebase-admin` SDK to retrieve the list of POIs, update their ratings, and store route requests and their corresponding calculated results.
-   - The backend efficiently updates the Firebase database in bulk to minimize the number of network requests, ensuring faster performance.
-
-### 5. **Maximum Distance Filtering**:
-   - Users can set a maximum allowed distance for the route via the frontend slider. The backend uses this value to filter POIs by their total distance from the start and end points.
-   - The backend ensures that only POIs that fall within the specified range are returned, optimizing the displayed results and avoiding unnecessary clutter on the map.
-
-### 6. **Real-time POI and Route Updates**:
-   - The backend listens for changes in the Firebase database and triggers real-time updates to the frontend when the POIs or route data is modified. This ensures that users always have the most up-to-date information without needing to refresh the page.
-
-By leveraging Python's powerful libraries for distance calculations and data management, this backend efficiently processes user requests and dynamically generates route and POI information in real-time.
 
 ## Firebase Configuration
 
@@ -145,11 +114,7 @@ In this project, Firebase is used to manage real-time data, including storing lo
    - In the Firebase console, enable the Realtime Database under the "Build" section.
    - Create a new database and select the appropriate location for your data.
 
-4. **Set Up Firebase Authentication (Optional):**
-   - If your project requires authentication, enable Firebase Authentication under the "Authentication" tab.
-   - You can configure authentication providers, such as email/password or social logins.
-
-5. **Add Firebase SDK to Your Project:**
+4. **Add Firebase SDK to Your Project:**
    - In your frontend code, initialize Firebase using the configuration details provided when you added the web app. This typically includes the API key, project ID, database URL, and other Firebase credentials.
 
    ```javascript
@@ -236,6 +201,3 @@ Firebase Realtime Database is central to managing Points of Interest (POIs), rou
 - **User Authentication**: Allow users to sign in and save their preferred routes or POI settings.
 - **Rating System**: Implement a user rating system where users can rate POIs.
 
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
