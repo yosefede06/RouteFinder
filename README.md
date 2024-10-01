@@ -69,7 +69,7 @@ These algorithms can be tested with different graph sizes and configurations by 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yosefede06/RouteFinder.git
-   cd route-finder
+   cd RouteFinder
    ```
 2. Set up Firebase by adding your Firebase configuration to the project. (See Firebase Configuration for details).
 
