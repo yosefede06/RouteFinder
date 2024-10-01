@@ -54,7 +54,7 @@ These algorithms can be tested with different graph sizes and configurations by 
 2. Install the necessary dependencies (use a virtual environment).
 3. Navigate to the backend-python folder and run:
   ```bash
-  python3 tests.py
+  python3 backend-python/tests.py
   ```
   
 ## Setup and Installation (Full project)
