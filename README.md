@@ -147,18 +147,15 @@ In this project, Firebase is used to manage real-time data, including storing lo
    const db = firebase.database();
 
 5. **Loading Environment Variables:**
-  - This project uses a `.env` file to store Firebase credentials
-    
-   1. Create a `.env` file in the root directory of your project.
-   2. Add the required environment variables in the following format:
+   - This project uses a `.env` file to store Firebase credentials
+    1. Create a `.env` file in the root directory of your project.
+    2. Add the required environment variables in the following format:
       ```bash
       # .env file
       FIREBASE_PRIVATE_KEY=your_firebase_api_key
       FIREBASE_DATABASE_URL=your_firebase_auth_domain
       ```
     
-
-
 ### 6. Structure of Firebase Data
 
 Firebase Realtime Database is central to managing Points of Interest (POIs), route requests, and route responses. Here's how the data is structured:
