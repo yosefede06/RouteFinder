@@ -54,7 +54,7 @@ These algorithms can be tested with different graph sizes and configurations by 
 2. Install the necessary dependencies (use a virtual environment).
 3. Navigate to the backend-python folder and run:
   ```bash
-  python3 backend-python/tests.py
+  python3 algorithm/tests.py
   ```
   
 ## Setup and Installation (Full project)
@@ -75,7 +75,7 @@ These algorithms can be tested with different graph sizes and configurations by 
 
 3. To run the backend (Python):
 ```bash
-python3 backend-python/main.py
+python3 algorithm/main.py
 ```
 4.	Serve the frontend project locally:
 ``` bash

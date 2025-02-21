@@ -1,0 +1,90 @@
+.leaflet-container {
+  width: 100%;
+  height: 500px; /* Adjust this as needed */
+}
+    .leaflet-control-container .leaflet-routing-container-hide {
+    display: none;
+}
+    .custom-icon.grayed-out i {
+  color: #d3d3d3; /* Light gray color */
+  opacity: 0.6; /* Slightly transparent */
+}
+.leaflet-popup-content-wrapper.timed-popup {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.show-popup {
+  opacity: 1 !important;
+}
+
+.use-location-btn {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.use-location-btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+/* Add to your RouteFinder.css or global stylesheet */
+.poi-panel {
+  position: absolute;
+  bottom: -15px;
+  right: 20px;
+  width: 250px;
+  max-height: 350px;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.9); /* Slight transparency */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  z-index: 1000; /* Ensure it appears above the map */
+}
+
+@media (min-width: 1200px) { /* Bootstrap xl breakpoint */
+  .poi-panel {
+    bottom: 10px;
+  }
+}
+
+.poi-panel .card-body {
+  padding: 10px;
+}
+
+.poi-panel img {
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+/*slider*/
+
+
+
+.poi-details-panel .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
